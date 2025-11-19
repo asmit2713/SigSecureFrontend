@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+.app-bg {
+  background: radial-gradient(circle at top, rgba(34, 197, 94, .15), transparent 60%),
+    radial-gradient(circle at bottom, rgba(56, 189, 248, .12), transparent 60%);
+}
